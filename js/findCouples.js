@@ -4,7 +4,9 @@
  */
 function fillingArray(n) {
    var arr = []
-   for (i = 1; i <= n; i++) arr[arr.length] = new Image(String(i));
+   for (i = 1; i <= n; i++) {
+      arr[arr.length] = new Image(String(i));
+   }
    return arr;
 }
 
@@ -75,8 +77,7 @@ function bindClick(fieldsOfCards, result, countRightChoices, x, n, countClick,
          elem = $('#' + id + '');
       if ((tmp.indexOf(id) === -1) && (tmp_clk.indexOf(id) === -1)) { //проверка, нажимал ли пользователь картинку и добавлена ли она в выбранные
          tmp.push(id);
-         if ((elem.hasClass('flipped') && elem.hasClass('rightChoice')) !==
-            true) { //если ячейка неперевернута и не выбрана "правильно"
+         if ((elem.hasClass('flipped') && elem.hasClass('rightChoice')) !== true) { //если ячейка неперевернута и не выбрана "правильно"
             elem.removeClass().addClass('flipped');
             result.push(elem.attr('data-item')) //сохраняем имя картинки
          }
