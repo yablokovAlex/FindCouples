@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styleForGame.css">
+    <script type="text/javascript" src="js/findCouples.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Image.js"></script>
+    <title>Find couples</title>
+</head>
+<body>
+<div class="input_content">
+    <h3>Choose parameters for the game:</h3>
+    <ol>
+        <li>
+            <p>Fields number</p>
+            <input type="number" name="inputX" id="inputX" min="4" max="30">
+        </li>
+        <li>
+            <p>The number of the same cells</p>
+            <input type="number" name="inputN" id="inputN" min="2" max="6">
+        </li>
+        <li>
+            <p>Are you ready?</p>
+            <input type="button" id="button" name="input_button" onclick="startGame()" value="Start to play">
+        </li>
+    </ol>
+    <div>
+        <div id="fieldContainer" class="fieldContainer">
+
+        </div>
+</body>
+</html>

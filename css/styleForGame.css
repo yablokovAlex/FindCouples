@@ -1,0 +1,255 @@
+.input_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 20%;
+	max-width: 100%;
+}
+
+#button{
+	min-width: 30 px;
+}
+
+body {
+	min-width: 10%;
+	max-width: 100%;
+}
+
+.fieldContainer{
+	min-width:  20%;
+	margin: 15px auto;
+}
+
+[data-view="cellForImage"] {
+	transform: rotateY(180deg);
+	width: 72px;
+	height: 72px;
+	margin: 1px;
+	float: left;
+	cursor: pointer;
+	background-color: red;
+	border-radius: 5px;
+}
+.flipped, .notFlipped {
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.flipped {
+	transition: 0.3s;
+	transform: rotateY(0deg);
+}
+
+
+.notFlipped {
+	transition: 0.5s;
+	transform: rotateY(180deg);
+}
+
+.rightChoice {
+	transition: 0.7s;
+	opacity: 1;
+	position: relative;
+  
+}
+
+/* Cards */
+.rightChoice[data-item="1"],
+.flipped[data-item="1"] {
+  background: url("../img/1.png");
+}
+
+.rightChoice[data-item="2"],
+.flipped[data-item="2"] {
+  background: url("../img/2.png");
+}
+
+.rightChoice[data-item="3"],
+.flipped[data-item="3"] {
+  background: url("../img/3.png");
+ }
+
+.rightChoice[data-item="4"],
+.flipped[data-item="4"] {
+  background: url("../img/4.png");
+ }
+
+.rightChoice[data-item="5"],
+.flipped[data-item="5"] {
+  background: url("../img/5.png"); 
+}
+
+.rightChoice[data-item="6"],
+.flipped[data-item="6"] {
+  background: url("../img/6.png");
+}
+
+.rightChoice[data-item="7"],
+.flipped[data-item="7"] {
+  background: url("../img/7.png");
+}
+
+.rightChoice[data-item="8"],
+.flipped[data-item="8"] {
+  background: url("../img/8.png");
+}
+
+.rightChoice[data-item="9"],
+.flipped[data-item="9"] {
+  background: url("../img/9.png");
+}
+
+.rightChoice[data-item="10"],
+.flipped[data-item="10"] {
+  background: url("../img/10.png");
+}
+
+.rightChoice[data-item="11"],
+.flipped[data-item="11"] {
+  background: url("../img/11.png");
+}
+
+.rightChoice[data-item="12"],
+.flipped[data-item="12"] {
+  background: url("../img/12.png");
+}
+
+.rightChoice[data-item="13"],
+.flipped[data-item="13"] {
+  background: url("../img/13.png");
+}
+
+.rightChoice[data-item="14"],
+.flipped[data-item="14"] {
+  background: url("../img/14.png");
+}
+
+.rightChoice[data-item="15"],
+.flipped[data-item="15"] {
+  background: url("../img/15.png");
+}
+
+.rightChoice[data-item="16"],
+.flipped[data-item="16"] {
+  background: url("../img/16.png");
+}
+
+.rightChoice[data-item="17"],
+.flipped[data-item="17"] {
+  background: url("../img/17.png");
+}
+
+.rightChoice[data-item="18"],
+.flipped[data-item="18"] {
+  background: url("../img/18.png");
+}
+
+.rightChoice[data-item="19"],
+.flipped[data-item="19"] {
+  background: url("../img/19.png");
+}
+
+.rightChoice[data-item="20"],
+.flipped[data-item="20"] {
+  background: url("../img/20.png");
+}
+
+.rightChoice[data-item="21"],
+.flipped[data-item="21"] {
+  background: url("../img/21.png");
+}
+
+.rightChoice[data-item="22"],
+.flipped[data-item="22"] {
+  background: url("../img/22.png");
+}
+
+.rightChoice[data-item="23"],
+.flipped[data-item="23"] {
+  background: url("../img/23.png");
+}
+
+.rightChoice[data-item="24"],
+.flipped[data-item="24"] {
+  background: url("../img/24.png");
+}
+
+.rightChoice[data-item="25"],
+.flipped[data-item="25"] {
+  background: url("../img/25.png");
+}
+
+.rightChoice[data-item="26"],
+.flipped[data-item="26"] {
+  background: url("../img/26.png");
+}
+
+.rightChoice[data-item="27"],
+.flipped[data-item="27"] {
+  background: url("../img/27.png");
+}
+
+.rightChoice[data-item="28"],
+.flipped[data-item="28"] {
+  background: url("../img/28.png");
+}
+
+.rightChoice[data-item="29"],
+.flipped[data-item="29"] {
+  background: url("../img/29.png");
+}
+
+.rightChoice[data-item="30"],
+.flipped[data-item="30"] {
+  background: url("../img/30.png");
+}
+
+.rightChoice[data-item="31"],
+.flipped[data-item="31"] {
+  background: url("../img/31.png");
+}
+
+.rightChoice[data-item="32"],
+.flipped[data-item="32"] {
+  background: url("../img/32.png");
+}
+
+.rightChoice[data-item="33"],
+.flipped[data-item="33"] {
+  background: url("../img/33.png");
+}
+
+.rightChoice[data-item="34"],
+.flipped[data-item="34"] {
+  background: url("../img/34.png");
+}
+
+.rightChoice[data-item="35"],
+.flipped[data-item="35"] {
+  background: url("../img/35.png");
+}
+
+.rightChoice[data-item="36"],
+.flipped[data-item="36"] {
+  background: url("../img/36.png");
+}
+
+.rightChoice[data-item="37"],
+.flipped[data-item="37"] {
+  background: url("../img/37.png");
+}
+
+.rightChoice[data-item="38"],
+.flipped[data-item="38"] {
+  background: url("../img/38.png");
+}
+
+.rightChoice[data-item="39"],
+.flipped[data-item="39"] {
+  background: url("../img/39.png");
+}
+
+.rightChoice[data-item="40"],
+.flipped[data-item="40"] {
+  background: url("../img/40.png");
+}
